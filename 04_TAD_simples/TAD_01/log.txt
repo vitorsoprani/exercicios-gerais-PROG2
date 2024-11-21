@@ -16,12 +16,12 @@ CRIANDO O DIRETÓRIO DE RESULTADO PARA VitorSopraniPassamani:
  - Arquivos criados: ok!
 
 CHECKANDO OS ARQUIVOS DO ALUNO:
- - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogada.c' não encontrado!
- - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogador.c' não encontrado!
- - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogo.c' não encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogada.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogador.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogo.c' encontrado!
  - Arquivo esperado 'Respostas/VitorSopraniPassamani/main.c' encontrado!
  - Arquivo esperado 'Respostas/VitorSopraniPassamani/tabuleiro.c' encontrado!
- - Arquivos esperados enviados: Faltando!
+ - Arquivos esperados enviados: Ok!
 
 COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Pasta main:
@@ -265,7 +265,7 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Aluno: VitorSopraniPassamani
- - Arquivos Esperados Corretos: 2 de 5
+ - Arquivos Esperados Corretos: 5 de 5
  - Pastas Compiladas Corretamente: 0 de 6 
  - Pastas Linkadas Corretamente: 0 de 6
  - Teste main

@@ -1,4 +1,4 @@
-Arquivos Esperados Corretos: 2 de 5
+Arquivos Esperados Corretos: 5 de 5
 Pastas Compiladas Corretamente: 0 de 6 
 Pastas Linkadas Corretamente: 0 de 6
 Teste main
