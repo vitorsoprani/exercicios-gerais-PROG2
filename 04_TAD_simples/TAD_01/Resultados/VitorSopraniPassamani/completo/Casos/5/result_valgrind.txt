@@ -1,0 +1,104 @@
+==39648== Memcheck, a memory error detector
+==39648== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==39648== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==39648== Command: Resultados/VitorSopraniPassamani/completo/prog Resultados/VitorSopraniPassamani/completo/Casos/5
+==39648== Parent PID: 39647
+==39648== 
+==39648== Conditional jump or move depends on uninitialised value(s)
+==39648==    at 0x48D70BB: __printf_buffer (vfprintf-process-arg.c:58)
+==39648==    by 0x48D872A: __vfprintf_internal (vfprintf-internal.c:1544)
+==39648==    by 0x48CD1A2: printf (printf.c:33)
+==39648==    by 0x10935F: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648== 
+==39648== Use of uninitialised value of size 8
+==39648==    at 0x48CC0AB: _itoa_word (_itoa.c:183)
+==39648==    by 0x48D6C8B: __printf_buffer (vfprintf-process-arg.c:155)
+==39648==    by 0x48D872A: __vfprintf_internal (vfprintf-internal.c:1544)
+==39648==    by 0x48CD1A2: printf (printf.c:33)
+==39648==    by 0x10935F: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648== 
+==39648== Conditional jump or move depends on uninitialised value(s)
+==39648==    at 0x48CC0BC: _itoa_word (_itoa.c:183)
+==39648==    by 0x48D6C8B: __printf_buffer (vfprintf-process-arg.c:155)
+==39648==    by 0x48D872A: __vfprintf_internal (vfprintf-internal.c:1544)
+==39648==    by 0x48CD1A2: printf (printf.c:33)
+==39648==    by 0x10935F: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648== 
+==39648== Conditional jump or move depends on uninitialised value(s)
+==39648==    at 0x48D6D79: __printf_buffer (vfprintf-process-arg.c:186)
+==39648==    by 0x48D872A: __vfprintf_internal (vfprintf-internal.c:1544)
+==39648==    by 0x48CD1A2: printf (printf.c:33)
+==39648==    by 0x10935F: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648== 
+==39648== Conditional jump or move depends on uninitialised value(s)
+==39648==    at 0x48D6D75: __printf_buffer (vfprintf-process-arg.c:186)
+==39648==    by 0x48D872A: __vfprintf_internal (vfprintf-internal.c:1544)
+==39648==    by 0x48CD1A2: printf (printf.c:33)
+==39648==    by 0x10935F: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648==    by 0x109373: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/completo/prog)
+==39648== 
+==39648== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==39648== 
+==39648== Process terminating with default action of signal 11 (SIGSEGV)
+==39648==  Access not within mapped region at address 0x1FFE801FB0
+==39648== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==39648==    at 0x48D9182: __vfscanf_internal (vfscanf-internal.c:665)
+==39648==  If you believe this happened as a result of a stack
+==39648==  overflow in your program's main thread (unlikely but
+==39648==  possible), you can try to increase the size of the
+==39648==  main thread stack using the --main-stacksize= flag.
+==39648==  The main thread stack size used in this run was 8388608.
+==39648== 
+==39648== HEAP SUMMARY:
+==39648==     in use at exit: 8,192 bytes in 2 blocks
+==39648==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
+==39648== 
+==39648== LEAK SUMMARY:
+==39648==    definitely lost: 0 bytes in 0 blocks
+==39648==    indirectly lost: 0 bytes in 0 blocks
+==39648==      possibly lost: 0 bytes in 0 blocks
+==39648==    still reachable: 8,192 bytes in 2 blocks
+==39648==         suppressed: 0 bytes in 0 blocks
+==39648== Reachable blocks (those to which a pointer was found) are not shown.
+==39648== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==39648== 
+==39648== Use --track-origins=yes to see where uninitialised values come from
+==39648== For lists of detected and suppressed errors, rerun with: -s
+==39648== ERROR SUMMARY: 897346 errors from 5 contexts (suppressed: 0 from 0)

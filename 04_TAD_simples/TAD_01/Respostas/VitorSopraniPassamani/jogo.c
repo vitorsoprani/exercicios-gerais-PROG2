@@ -32,12 +32,15 @@ void ComecaJogo(tJogo jogo) {
             jogo.tabuleiro = JogaJogador(jogo.jogador2, jogo.tabuleiro);
         }
 
-
         jogadorAtual = !jogadorAtual;
 
         if (AcabouJogo(jogo)) {
-            if (!ContinuaJogo()) break;
-            else jogo.tabuleiro = CriaTabuleiro();
+            if (!ContinuaJogo()) {
+                break;
+            } else {
+                jogo.tabuleiro = CriaTabuleiro();
+                jogadorAtual = 0;
+            }
         }
     }
 }
@@ -51,9 +54,18 @@ void ComecaJogo(tJogo jogo) {
  * @return 1 se o jogo acabou, 0 caso contrário.
  */
 int AcabouJogo(tJogo jogo) {
-    return (VenceuJogador(jogo.jogador1, jogo.tabuleiro) ||
-        VenceuJogador(jogo.jogador2, jogo.tabuleiro) ||
-        !TemPosicaoLivreTabuleiro(jogo.tabuleiro));
+    if (VenceuJogador(jogo.jogador1, jogo.tabuleiro)) {
+        printf("JOGADOR 1 Venceu!\n");
+        return 1;
+    } else if (VenceuJogador(jogo.jogador2, jogo.tabuleiro)) {
+        printf("JOGADOR 2 Venceu!\n");
+        return 1;
+    } else if (!TemPosicaoLivreTabuleiro(jogo.tabuleiro)) {
+        printf("Sem vencedor!\n");
+        return 1;
+    }
+
+    return 0;
 }
 
 
@@ -65,6 +77,7 @@ int AcabouJogo(tJogo jogo) {
 int ContinuaJogo() {
     char continuar;
 
+    printf("Jogar novamente? (s,n)\n");
     scanf("%c\n", &continuar);
 
     return continuar == 's';

@@ -10,7 +10,7 @@ tTabuleiro CriaTabuleiro() {
     tTabuleiro tabuleiro;
 
     tabuleiro.pecaVazio = '-';
-    tabuleiro.peca1 = 'x';
+    tabuleiro.peca1 = 'X';
     tabuleiro.peca2 = '0';
 
     for (int i = 0; i < TAM_TABULEIRO; i++) {

@@ -1,2 +1,7 @@
-cc1: fatal error: *.c: Arquivo ou diretório inexistente
-compilation terminated.
+jogador.c: In function ‘JogaJogador’:
+jogador.c:42:70: warning: comparison between pointer and integer
+   42 |     if (ObtemJogadaX(jogada) < 0 || ObtemJogadaY < 0 || ObtemJogadaX > 2 || ObtemJogadaY > 2) {
+      |                                                                      ^
+jogador.c:42:90: warning: comparison between pointer and integer
+   42 |     if (ObtemJogadaX(jogada) < 0 || ObtemJogadaY < 0 || ObtemJogadaX > 2 || ObtemJogadaY > 2) {
+      |                                                                                          ^

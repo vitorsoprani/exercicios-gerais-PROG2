@@ -1,1 +1,37 @@
-valgrind: Resultados/VitorSopraniPassamani/main/prog: No such file or directory
+Jogador 1
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	X--
+	---
+	---
+Jogador 2
+Digite uma posicao (x e y):
+Jogada [1,1]!
+	X--
+	-0-
+	---
+Jogador 1
+Digite uma posicao (x e y):
+Jogada [1,0]!
+	XX-
+	-0-
+	---
+Jogador 2
+Digite uma posicao (x e y):
+Jogada [2,0]!
+	XX0
+	-0-
+	---
+Jogador 1
+Digite uma posicao (x e y):
+Jogada [0,1]!
+	XX0
+	X0-
+	---
+Jogador 2
+Digite uma posicao (x e y):
+Jogada [0,2]!
+	XX0
+	X0-
+	0--
+JOGADOR 2 Venceu!

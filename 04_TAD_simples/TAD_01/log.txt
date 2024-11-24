@@ -1,4 +1,5 @@
 - Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
  - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
 
 #######################################
@@ -17,245 +18,293 @@ CRIANDO O DIRETÓRIO DE RESULTADO PARA VitorSopraniPassamani:
 
 CHECKANDO OS ARQUIVOS DO ALUNO:
  - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogada.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogada.h' encontrado!
  - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogador.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogador.h' encontrado!
  - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogo.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/jogo.h' encontrado!
  - Arquivo esperado 'Respostas/VitorSopraniPassamani/main.c' encontrado!
  - Arquivo esperado 'Respostas/VitorSopraniPassamani/tabuleiro.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/tabuleiro.h' encontrado!
  - Arquivos esperados enviados: Ok!
 
 COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Pasta main:
  - Copiando os Casos de teste para a pasta Resultados/VitorSopraniPassamani/main
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/VitorSopraniPassamani/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSopraniPassamani/main
+ - Removendo o main.o do professor da pasta Resultados/VitorSopraniPassamani/main
+ - Copiando o Respostas/VitorSopraniPassamani/main.c do aluno para a pasta Resultados/VitorSopraniPassamani/main
  - Pasta completo:
  - Copiando os Casos de teste para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/jogada.c do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/jogada.h do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/jogador.c do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/jogador.h do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/jogo.c do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/jogo.h do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/main.c do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/tabuleiro.c do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/tabuleiro.h do aluno para a pasta Resultados/VitorSopraniPassamani/completo
  - Pasta jogada:
  - Copiando os Casos de teste para a pasta Resultados/VitorSopraniPassamani/jogada
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/VitorSopraniPassamani/jogada
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSopraniPassamani/jogada
+ - Removendo o jogada.o do professor da pasta Resultados/VitorSopraniPassamani/jogada
+ - Copiando o Respostas/VitorSopraniPassamani/jogada.c do aluno para a pasta Resultados/VitorSopraniPassamani/jogada
  - Pasta jogador:
  - Copiando os Casos de teste para a pasta Resultados/VitorSopraniPassamani/jogador
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/VitorSopraniPassamani/jogador
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSopraniPassamani/jogador
+ - Removendo o jogador.o do professor da pasta Resultados/VitorSopraniPassamani/jogador
+ - Copiando o Respostas/VitorSopraniPassamani/jogador.c do aluno para a pasta Resultados/VitorSopraniPassamani/jogador
  - Pasta tabuleiro:
  - Copiando os Casos de teste para a pasta Resultados/VitorSopraniPassamani/tabuleiro
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/VitorSopraniPassamani/tabuleiro
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSopraniPassamani/tabuleiro
+ - Removendo o tabuleiro.o do professor da pasta Resultados/VitorSopraniPassamani/tabuleiro
+ - Copiando o Respostas/VitorSopraniPassamani/tabuleiro.c do aluno para a pasta Resultados/VitorSopraniPassamani/tabuleiro
  - Pasta jogo:
  - Copiando os Casos de teste para a pasta Resultados/VitorSopraniPassamani/jogo
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/VitorSopraniPassamani/jogo
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSopraniPassamani/jogo
+ - Removendo o jogo.o do professor da pasta Resultados/VitorSopraniPassamani/jogo
+ - Copiando o Respostas/VitorSopraniPassamani/jogo.c do aluno para a pasta Resultados/VitorSopraniPassamani/jogo
  - Copiando Arquivos Extras do Aluno:
- - Copiando Respostas/VitorSopraniPassamani/jogada.h para Resultados/VitorSopraniPassamani/main
- - Copiando Respostas/VitorSopraniPassamani/jogada.h para Resultados/VitorSopraniPassamani/completo
- - Copiando Respostas/VitorSopraniPassamani/jogada.h para Resultados/VitorSopraniPassamani/jogada
- - Copiando Respostas/VitorSopraniPassamani/jogada.h para Resultados/VitorSopraniPassamani/jogador
- - Copiando Respostas/VitorSopraniPassamani/jogada.h para Resultados/VitorSopraniPassamani/tabuleiro
- - Copiando Respostas/VitorSopraniPassamani/jogada.h para Resultados/VitorSopraniPassamani/jogo
- - Copiando Respostas/VitorSopraniPassamani/jogador.h para Resultados/VitorSopraniPassamani/main
- - Copiando Respostas/VitorSopraniPassamani/jogador.h para Resultados/VitorSopraniPassamani/completo
- - Copiando Respostas/VitorSopraniPassamani/jogador.h para Resultados/VitorSopraniPassamani/jogada
- - Copiando Respostas/VitorSopraniPassamani/jogador.h para Resultados/VitorSopraniPassamani/jogador
- - Copiando Respostas/VitorSopraniPassamani/jogador.h para Resultados/VitorSopraniPassamani/tabuleiro
- - Copiando Respostas/VitorSopraniPassamani/jogador.h para Resultados/VitorSopraniPassamani/jogo
- - Copiando Respostas/VitorSopraniPassamani/jogo.h para Resultados/VitorSopraniPassamani/main
- - Copiando Respostas/VitorSopraniPassamani/jogo.h para Resultados/VitorSopraniPassamani/completo
- - Copiando Respostas/VitorSopraniPassamani/jogo.h para Resultados/VitorSopraniPassamani/jogada
- - Copiando Respostas/VitorSopraniPassamani/jogo.h para Resultados/VitorSopraniPassamani/jogador
- - Copiando Respostas/VitorSopraniPassamani/jogo.h para Resultados/VitorSopraniPassamani/tabuleiro
- - Copiando Respostas/VitorSopraniPassamani/jogo.h para Resultados/VitorSopraniPassamani/jogo
- - Copiando Respostas/VitorSopraniPassamani/tabuleiro.h para Resultados/VitorSopraniPassamani/main
- - Copiando Respostas/VitorSopraniPassamani/tabuleiro.h para Resultados/VitorSopraniPassamani/completo
- - Copiando Respostas/VitorSopraniPassamani/tabuleiro.h para Resultados/VitorSopraniPassamani/jogada
- - Copiando Respostas/VitorSopraniPassamani/tabuleiro.h para Resultados/VitorSopraniPassamani/jogador
- - Copiando Respostas/VitorSopraniPassamani/tabuleiro.h para Resultados/VitorSopraniPassamani/tabuleiro
- - Copiando Respostas/VitorSopraniPassamani/tabuleiro.h para Resultados/VitorSopraniPassamani/jogo
  - Arquivos copiados: ok!
 
 COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
- - Erro de compilação! Verifique os arquivos da pasta main.
- - Erro de compilação! Verifique os arquivos da pasta completo.
- - Erro de compilação! Verifique os arquivos da pasta jogada.
- - Erro de compilação! Verifique os arquivos da pasta jogador.
- - Erro de compilação! Verifique os arquivos da pasta tabuleiro.
- - Erro de compilação! Verifique os arquivos da pasta jogo.
- - Arquivos Compilados: Erro!: 6 arquivos com erros de compilacao.
-
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta jogada ok!
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogada/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta jogador ok!
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogador/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta tabuleiro ok!
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/tabuleiro/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta jogo ok!
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogo/result_compilation.txt
  - Arquivos Compilados: ok!
 
 LINKANDO OS ARQUIVOS COMPILADOS:
  - Pasta main:
  - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/result_linking.txt
  - Pasta completo:
  - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/result_linking.txt
  - Pasta jogada:
  - Gerando o binário prog linkando com o(s) arquivo(s) jogada/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogada/result_linking.txt
  - Pasta jogador:
  - Gerando o binário prog linkando com o(s) arquivo(s) jogador/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogador/result_linking.txt
  - Pasta tabuleiro:
  - Gerando o binário prog linkando com o(s) arquivo(s) tabuleiro/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/VitorSopraniPassamani/tabuleiro/result_linking.txt
  - Pasta jogo:
  - Gerando o binário prog linkando com o(s) arquivo(s) jogo/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogo/result_linking.txt
- - Arquivos Linkados: Erro! 6 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta main / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta main / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta main / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta main / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta main / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Nota para a pasta main (máximo 1.66) - 0 de 60 - 0% de 1.66: 0.
  -----
  - Pasta completo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Nota para a pasta completo (máximo 1.66) - 0 de 60 - 0% de 1.66: 0.
  -----
  - Pasta jogada / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogada/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogada / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogada/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogada / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogada/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogada / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogada/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogada / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogada/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogada / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta jogada (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogada/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta jogada (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
  -----
  - Pasta jogador / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogador/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogador / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogador/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogador / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogador/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogador / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogador/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogador / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogador/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogador / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogador/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Nota para a pasta jogador (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
  -----
  - Pasta tabuleiro / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/tabuleiro/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta tabuleiro / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/tabuleiro/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta tabuleiro / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/tabuleiro/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta tabuleiro / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/tabuleiro/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta tabuleiro / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/tabuleiro/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta tabuleiro / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta tabuleiro (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/tabuleiro/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta tabuleiro (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
  -----
  - Pasta jogo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogo / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogo / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta jogo / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/jogo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Nota para a pasta jogo (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
  -----
 
@@ -265,35 +314,35 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Aluno: VitorSopraniPassamani
- - Arquivos Esperados Corretos: 5 de 5
- - Pastas Compiladas Corretamente: 0 de 6 
- - Pastas Linkadas Corretamente: 0 de 6
+ - Arquivos Esperados Corretos: 9 de 9
+ - Pastas Compiladas Corretamente: 6 de 6 
+ - Pastas Linkadas Corretamente: 6 de 6
  - Teste main
  - Resultados corretos: 0 de 6
- - Valgrinds corretos: 0 de 6
+ - Valgrinds corretos: 6 de 6
  - Nota de VitorSopraniPassamani para o teste main: 0
  - Teste completo
  - Resultados corretos: 0 de 6
- - Valgrinds corretos: 0 de 6
+ - Valgrinds corretos: 6 de 6
  - Nota de VitorSopraniPassamani para o teste completo: 0
  - Teste jogada
- - Resultados corretos: 0 de 6
- - Valgrinds corretos: 0 de 6
- - Nota de VitorSopraniPassamani para o teste jogada: 0
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de VitorSopraniPassamani para o teste jogada: 1.67
  - Teste jogador
  - Resultados corretos: 0 de 6
- - Valgrinds corretos: 0 de 6
+ - Valgrinds corretos: 6 de 6
  - Nota de VitorSopraniPassamani para o teste jogador: 0
  - Teste tabuleiro
- - Resultados corretos: 0 de 6
- - Valgrinds corretos: 0 de 6
- - Nota de VitorSopraniPassamani para o teste tabuleiro: 0
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de VitorSopraniPassamani para o teste tabuleiro: 1.67
  - Teste jogo
  - Resultados corretos: 0 de 6
- - Valgrinds corretos: 0 de 6
+ - Valgrinds corretos: 6 de 6
  - Nota de VitorSopraniPassamani para o teste jogo: 0
- - Nota de VitorSopraniPassamani: 0+(0)+(0)+(0)+(0)+(0)+(0)
- - Nota de VitorSopraniPassamani: 0
+ - Nota de VitorSopraniPassamani: 0+(0)+(1.67)+(1.67)+(0)+(0)+(0)
+ - Nota de VitorSopraniPassamani: 3.34
 
 ----------------------------------------------------------------------------
 

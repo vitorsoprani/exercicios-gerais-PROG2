@@ -1,2 +1,0 @@
-/usr/bin/ld: não foi possível localizar Resultados/VitorSopraniPassamani/jogador/*.o: Arquivo ou diretório inexistente
-collect2: error: ld returned 1 exit status

@@ -38,11 +38,20 @@ tJogador CriaJogador(int idJogador) {
  */
 tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro) {
     tJogada jogada = LeJogada();
-    if (FoiJogadaBemSucedida(jogada)) {
-        printf("Jogada [%d,%d]!\n", ObtemJogadaX(jogada), ObtemJogadaY(jogada));
-        tabuleiro = MarcaPosicaoTabuleiro(tabuleiro, jogador.id, jogada.x, jogada.y);
-        ImprimeTabuleiro(tabuleiro);
+
+    if (ObtemJogadaX(jogada) < 0 || ObtemJogadaY < 0 || ObtemJogadaX > 2 || ObtemJogadaY > 2) {
+        printf("Posicao invalida (FORA DO TABULEIRO - [%d,%d] )!\n)", ObtemJogadaX(jogada), ObtemJogadaY(jogada));
+        return JogaJogador(jogador, tabuleiro);
+    } else if (!EstaLivrePosicaoTabuleiro(tabuleiro, ObtemJogadaX(jogada), ObtemJogadaY(jogada))) {
+        printf("Posicao invalida (OCUPADA - [%d,%d] )!\n)", ObtemJogadaX(jogada), ObtemJogadaY(jogada));
+        return JogaJogador(jogador, tabuleiro);
     }
+
+    printf("Jogada [%d,%d]!\n", ObtemJogadaX(jogada), ObtemJogadaY(jogada));
+
+    tabuleiro = MarcaPosicaoTabuleiro(tabuleiro, jogador.id, jogada.x, jogada.y);
+
+    ImprimeTabuleiro(tabuleiro);
 
     return tabuleiro;
 }

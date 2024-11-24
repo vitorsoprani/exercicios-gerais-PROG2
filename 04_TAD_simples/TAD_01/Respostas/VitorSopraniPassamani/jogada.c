@@ -9,11 +9,9 @@
 tJogada LeJogada() {
     tJogada jogada;
     printf("Digite uma posicao (x e y):\n");
-    if (scanf("%d %d\n", &jogada.x, &jogada.y) == 2) {
-        jogada.sucesso = 1;
-    } else {
-        jogada.sucesso = 0;
-    }
+
+    jogada.sucesso = (scanf("%d %d\n", &jogada.x, &jogada.y) == 2);
+
     return jogada;
 }
 

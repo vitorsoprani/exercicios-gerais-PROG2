@@ -1,0 +1,104 @@
+==41710== Memcheck, a memory error detector
+==41710== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==41710== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==41710== Command: Resultados/VitorSopraniPassamani/jogador/prog Resultados/VitorSopraniPassamani/jogador/Casos/2
+==41710== Parent PID: 41709
+==41710== 
+==41710== Conditional jump or move depends on uninitialised value(s)
+==41710==    at 0x48D70BB: __printf_buffer (vfprintf-process-arg.c:58)
+==41710==    by 0x48D872A: __vfprintf_internal (vfprintf-internal.c:1544)
+==41710==    by 0x48CD1A2: printf (printf.c:33)
+==41710==    by 0x10934A: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710== 
+==41710== Use of uninitialised value of size 8
+==41710==    at 0x48CC0AB: _itoa_word (_itoa.c:183)
+==41710==    by 0x48D6C8B: __printf_buffer (vfprintf-process-arg.c:155)
+==41710==    by 0x48D872A: __vfprintf_internal (vfprintf-internal.c:1544)
+==41710==    by 0x48CD1A2: printf (printf.c:33)
+==41710==    by 0x10934A: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710== 
+==41710== Conditional jump or move depends on uninitialised value(s)
+==41710==    at 0x48CC0BC: _itoa_word (_itoa.c:183)
+==41710==    by 0x48D6C8B: __printf_buffer (vfprintf-process-arg.c:155)
+==41710==    by 0x48D872A: __vfprintf_internal (vfprintf-internal.c:1544)
+==41710==    by 0x48CD1A2: printf (printf.c:33)
+==41710==    by 0x10934A: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710== 
+==41710== Conditional jump or move depends on uninitialised value(s)
+==41710==    at 0x48D6D79: __printf_buffer (vfprintf-process-arg.c:186)
+==41710==    by 0x48D872A: __vfprintf_internal (vfprintf-internal.c:1544)
+==41710==    by 0x48CD1A2: printf (printf.c:33)
+==41710==    by 0x10934A: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710== 
+==41710== Conditional jump or move depends on uninitialised value(s)
+==41710==    at 0x48D6D75: __printf_buffer (vfprintf-process-arg.c:186)
+==41710==    by 0x48D872A: __vfprintf_internal (vfprintf-internal.c:1544)
+==41710==    by 0x48CD1A2: printf (printf.c:33)
+==41710==    by 0x10934A: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710==    by 0x10935E: JogaJogador (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/04_TAD_simples/TAD_01/Resultados/VitorSopraniPassamani/jogador/prog)
+==41710== 
+==41710== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==41710== 
+==41710== Process terminating with default action of signal 11 (SIGSEGV)
+==41710==  Access not within mapped region at address 0x1FFE801FA0
+==41710== Stack overflow in thread #1: can't grow stack to 0x1ffe801000
+==41710==    at 0x48D9182: __vfscanf_internal (vfscanf-internal.c:665)
+==41710==  If you believe this happened as a result of a stack
+==41710==  overflow in your program's main thread (unlikely but
+==41710==  possible), you can try to increase the size of the
+==41710==  main thread stack using the --main-stacksize= flag.
+==41710==  The main thread stack size used in this run was 8388608.
+==41710== 
+==41710== HEAP SUMMARY:
+==41710==     in use at exit: 8,192 bytes in 2 blocks
+==41710==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
+==41710== 
+==41710== LEAK SUMMARY:
+==41710==    definitely lost: 0 bytes in 0 blocks
+==41710==    indirectly lost: 0 bytes in 0 blocks
+==41710==      possibly lost: 0 bytes in 0 blocks
+==41710==    still reachable: 8,192 bytes in 2 blocks
+==41710==         suppressed: 0 bytes in 0 blocks
+==41710== Reachable blocks (those to which a pointer was found) are not shown.
+==41710== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==41710== 
+==41710== Use --track-origins=yes to see where uninitialised values come from
+==41710== For lists of detected and suppressed errors, rerun with: -s
+==41710== ERROR SUMMARY: 897334 errors from 5 contexts (suppressed: 0 from 0)
