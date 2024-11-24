@@ -23,7 +23,6 @@ int main() {
 }
 
 int SomaElementosPares(int* vet, int numElementos) {
-    int soma = 0;
     int idx = numElementos - 1;
 
     if (idx < 0) return 0;
