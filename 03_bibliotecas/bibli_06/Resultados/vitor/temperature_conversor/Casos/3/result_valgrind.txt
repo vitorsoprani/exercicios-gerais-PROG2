@@ -1,0 +1,15 @@
+==20251== Memcheck, a memory error detector
+==20251== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==20251== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==20251== Command: Resultados/vitor/temperature_conversor/prog Resultados/vitor/temperature_conversor/Casos/3
+==20251== Parent PID: 20250
+==20251== 
+==20251== 
+==20251== HEAP SUMMARY:
+==20251==     in use at exit: 0 bytes in 0 blocks
+==20251==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==20251== 
+==20251== All heap blocks were freed -- no leaks are possible
+==20251== 
+==20251== For lists of detected and suppressed errors, rerun with: -s
+==20251== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

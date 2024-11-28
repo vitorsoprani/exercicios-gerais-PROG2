@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "data.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "temperature_conversor.h": "c"
     }
 }
