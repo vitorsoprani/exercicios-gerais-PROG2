@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "tabuleiro.h": "c"
+        "tabuleiro.h": "c",
+        "stdio.h": "c",
+        "jogada.h": "c",
+        "jogador.h": "c"
     }
 }
