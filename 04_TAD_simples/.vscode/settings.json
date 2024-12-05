@@ -3,6 +3,7 @@
         "tabuleiro.h": "c",
         "stdio.h": "c",
         "jogada.h": "c",
-        "jogador.h": "c"
+        "jogador.h": "c",
+        "eleitor.h": "c"
     }
 }

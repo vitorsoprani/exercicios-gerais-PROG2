@@ -1,0 +1,4 @@
+eleicao.c: In function ‘RealizaEleicao’:
+eleicao.c:60:16: warning: too many arguments for format [-Wformat-extra-args]
+   60 |         printf("ELEICAO ANULADA\n", qtdEleitores);
+      |                ^~~~~~~~~~~~~~~~~~~
