@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "store.h": "c",
+        "stdio.h": "c"
+    }
+}
