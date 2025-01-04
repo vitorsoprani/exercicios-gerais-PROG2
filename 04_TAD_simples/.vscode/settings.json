@@ -4,6 +4,7 @@
         "stdio.h": "c",
         "jogada.h": "c",
         "jogador.h": "c",
-        "eleitor.h": "c"
+        "eleitor.h": "c",
+        "filme.h": "c"
     }
 }
