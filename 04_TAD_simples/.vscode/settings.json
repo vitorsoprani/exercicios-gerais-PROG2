@@ -5,6 +5,7 @@
         "jogada.h": "c",
         "jogador.h": "c",
         "eleitor.h": "c",
-        "filme.h": "c"
+        "filme.h": "c",
+        "funcionario.h": "c"
     }
 }
