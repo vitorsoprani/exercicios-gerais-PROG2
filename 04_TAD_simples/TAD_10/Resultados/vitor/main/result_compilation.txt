@@ -1,0 +1,7 @@
+main.c: In function ‘main’:
+main.c:21:23: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
+   21 |             scanf("%[^\n]%*c", &titulo);
+      |                    ~~~^~       ~~~~~~~
+      |                       |        |
+      |                       char *   char (*)[100]
