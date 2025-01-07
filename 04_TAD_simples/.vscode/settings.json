@@ -6,6 +6,7 @@
         "jogador.h": "c",
         "eleitor.h": "c",
         "filme.h": "c",
-        "funcionario.h": "c"
+        "funcionario.h": "c",
+        "matrix_utils.h": "c"
     }
 }
