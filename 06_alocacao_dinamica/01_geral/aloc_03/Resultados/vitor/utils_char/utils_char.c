@@ -40,7 +40,6 @@ void LeVetor(char* vetor, int tamanho) {
         i++;
         scanf("%c", &c);
     }
-    printf("\n");
 }
 
 void ImprimeString(char* vetor, int tamanho) {
@@ -54,6 +53,7 @@ void ImprimeString(char* vetor, int tamanho) {
     for (int i = 0; i < tamanho; i++) {
         printf("%c", vetor[i]);
     }
+    printf("\n");
 }
 
 void LiberaVetor(char* vetor) {
