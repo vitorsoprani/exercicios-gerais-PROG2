@@ -3,16 +3,18 @@
 
 int main() {
     int tamanho;
-    char* vet = NULL;
+    char* vetor;
 
     scanf("%d%*c", &tamanho);
 
-    vet = CriaVetor(tamanho);
-    ImprimeString(vet, tamanho);
+    vetor = CriaVetor(tamanho);
 
-    LeVetor(vet, tamanho);
-    ImprimeString(vet, tamanho);
+    ImprimeString(vetor, tamanho);
 
-    LiberaVetor(vet);
+    LeVetor(vetor, tamanho);
+
+    ImprimeString(vetor, tamanho);
+
+    LiberaVetor(vetor);
     return 0;
 }
