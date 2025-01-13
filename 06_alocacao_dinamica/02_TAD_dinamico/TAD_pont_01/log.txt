@@ -1,0 +1,352 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: vitor
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA vitor:
+ - Diretório Resultados/vitor criado com sucesso!
+ - Diretório Resultados/vitor/main criado com sucesso!
+ - Diretório Resultados/vitor/completo criado com sucesso!
+ - Diretório Resultados/vitor/jogada criado com sucesso!
+ - Diretório Resultados/vitor/jogador criado com sucesso!
+ - Diretório Resultados/vitor/tabuleiro criado com sucesso!
+ - Diretório Resultados/vitor/jogo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/vitor/jogada.c' encontrado!
+ - Arquivo esperado 'Respostas/vitor/jogada.h' encontrado!
+ - Arquivo esperado 'Respostas/vitor/jogador.c' encontrado!
+ - Arquivo esperado 'Respostas/vitor/jogador.h' encontrado!
+ - Arquivo esperado 'Respostas/vitor/jogo.c' encontrado!
+ - Arquivo esperado 'Respostas/vitor/jogo.h' encontrado!
+ - Arquivo esperado 'Respostas/vitor/main.c' encontrado!
+ - Arquivo esperado 'Respostas/vitor/tabuleiro.c' encontrado!
+ - Arquivo esperado 'Respostas/vitor/tabuleiro.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/vitor/main
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/vitor/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/vitor/main
+ - Removendo o main.o do professor da pasta Resultados/vitor/main
+ - Copiando o Respostas/vitor/main.c do aluno para a pasta Resultados/vitor/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/jogada.c do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/jogada.h do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/jogador.c do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/jogador.h do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/jogo.c do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/jogo.h do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/main.c do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/tabuleiro.c do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/tabuleiro.h do aluno para a pasta Resultados/vitor/completo
+ - Pasta jogada:
+ - Copiando os Casos de teste para a pasta Resultados/vitor/jogada
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/vitor/jogada
+ - Copiando os Includes/*.o do professor para a pasta Resultados/vitor/jogada
+ - Removendo o jogada.o do professor da pasta Resultados/vitor/jogada
+ - Copiando o Respostas/vitor/jogada.c do aluno para a pasta Resultados/vitor/jogada
+ - Pasta jogador:
+ - Copiando os Casos de teste para a pasta Resultados/vitor/jogador
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/vitor/jogador
+ - Copiando os Includes/*.o do professor para a pasta Resultados/vitor/jogador
+ - Removendo o jogador.o do professor da pasta Resultados/vitor/jogador
+ - Copiando o Respostas/vitor/jogador.c do aluno para a pasta Resultados/vitor/jogador
+ - Pasta tabuleiro:
+ - Copiando os Casos de teste para a pasta Resultados/vitor/tabuleiro
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/vitor/tabuleiro
+ - Copiando os Includes/*.o do professor para a pasta Resultados/vitor/tabuleiro
+ - Removendo o tabuleiro.o do professor da pasta Resultados/vitor/tabuleiro
+ - Copiando o Respostas/vitor/tabuleiro.c do aluno para a pasta Resultados/vitor/tabuleiro
+ - Pasta jogo:
+ - Copiando os Casos de teste para a pasta Resultados/vitor/jogo
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/vitor/jogo
+ - Copiando os Includes/*.o do professor para a pasta Resultados/vitor/jogo
+ - Removendo o jogo.o do professor da pasta Resultados/vitor/jogo
+ - Copiando o Respostas/vitor/jogo.c do aluno para a pasta Resultados/vitor/jogo
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/vitor/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/vitor/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta jogada ok!
+ - Arquivo de output gerado: Resultados/vitor/jogada/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta jogador ok!
+ - Arquivo de output gerado: Resultados/vitor/jogador/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta tabuleiro ok!
+ - Arquivo de output gerado: Resultados/vitor/tabuleiro/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta jogo ok!
+ - Arquivo de output gerado: Resultados/vitor/jogo/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/vitor/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/vitor/completo/result_linking.txt
+ - Pasta jogada:
+ - Gerando o binário prog linkando com o(s) arquivo(s) jogada/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/vitor/jogada/result_linking.txt
+ - Pasta jogador:
+ - Gerando o binário prog linkando com o(s) arquivo(s) jogador/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/vitor/jogador/result_linking.txt
+ - Pasta tabuleiro:
+ - Gerando o binário prog linkando com o(s) arquivo(s) tabuleiro/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/vitor/tabuleiro/result_linking.txt
+ - Pasta jogo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) jogo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/vitor/jogo/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/vitor/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/vitor/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 68, frees: 68, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/vitor/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/vitor/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 49, frees: 49, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/vitor/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Arquivo de output gerado: Resultados/vitor/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 132, frees: 132, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 1.66) - 60.00 de 60 - 100.00% de 1.66: 1.66.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/vitor/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 86, frees: 86, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/vitor/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 73, frees: 73, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/vitor/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 57, frees: 57, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/vitor/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 56, frees: 56, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/vitor/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 86, frees: 86, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Arquivo de output gerado: Resultados/vitor/completo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 143, frees: 143, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 1.66) - 60.00 de 60 - 100.00% de 1.66: 1.66.
+ -----
+ - Pasta jogada / Caso 1:
+ - Arquivo de output gerado: Resultados/vitor/jogada/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogada / Caso 2:
+ - Arquivo de output gerado: Resultados/vitor/jogada/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 68, frees: 68, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogada / Caso 3:
+ - Arquivo de output gerado: Resultados/vitor/jogada/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogada / Caso 4:
+ - Arquivo de output gerado: Resultados/vitor/jogada/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 49, frees: 49, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogada / Caso 5:
+ - Arquivo de output gerado: Resultados/vitor/jogada/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogada / Caso 6:
+ - Arquivo de output gerado: Resultados/vitor/jogada/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 132, frees: 132, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta jogada (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
+ -----
+ - Pasta jogador / Caso 1:
+ - Arquivo de output gerado: Resultados/vitor/jogador/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 86, frees: 86, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogador / Caso 2:
+ - Arquivo de output gerado: Resultados/vitor/jogador/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 73, frees: 73, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogador / Caso 3:
+ - Arquivo de output gerado: Resultados/vitor/jogador/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 57, frees: 57, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogador / Caso 4:
+ - Arquivo de output gerado: Resultados/vitor/jogador/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 56, frees: 56, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogador / Caso 5:
+ - Arquivo de output gerado: Resultados/vitor/jogador/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 86, frees: 86, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogador / Caso 6:
+ - Arquivo de output gerado: Resultados/vitor/jogador/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 143, frees: 143, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta jogador (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
+ -----
+ - Pasta tabuleiro / Caso 1:
+ - Arquivo de output gerado: Resultados/vitor/tabuleiro/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta tabuleiro / Caso 2:
+ - Arquivo de output gerado: Resultados/vitor/tabuleiro/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 68, frees: 68, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta tabuleiro / Caso 3:
+ - Arquivo de output gerado: Resultados/vitor/tabuleiro/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta tabuleiro / Caso 4:
+ - Arquivo de output gerado: Resultados/vitor/tabuleiro/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 49, frees: 49, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta tabuleiro / Caso 5:
+ - Arquivo de output gerado: Resultados/vitor/tabuleiro/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta tabuleiro / Caso 6:
+ - Arquivo de output gerado: Resultados/vitor/tabuleiro/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 132, frees: 132, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta tabuleiro (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
+ -----
+ - Pasta jogo / Caso 1:
+ - Arquivo de output gerado: Resultados/vitor/jogo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogo / Caso 2:
+ - Arquivo de output gerado: Resultados/vitor/jogo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 68, frees: 68, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogo / Caso 3:
+ - Arquivo de output gerado: Resultados/vitor/jogo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogo / Caso 4:
+ - Arquivo de output gerado: Resultados/vitor/jogo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 49, frees: 49, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogo / Caso 5:
+ - Arquivo de output gerado: Resultados/vitor/jogo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogo / Caso 6:
+ - Arquivo de output gerado: Resultados/vitor/jogo/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 132, frees: 132, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta jogo (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: vitor
+ - Arquivos Esperados Corretos: 9 de 9
+ - Pastas Compiladas Corretamente: 6 de 6 
+ - Pastas Linkadas Corretamente: 6 de 6
+ - Teste main
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de vitor para o teste main: 1.66
+ - Teste completo
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de vitor para o teste completo: 1.66
+ - Teste jogada
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de vitor para o teste jogada: 1.67
+ - Teste jogador
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de vitor para o teste jogador: 1.67
+ - Teste tabuleiro
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de vitor para o teste tabuleiro: 1.67
+ - Teste jogo
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de vitor para o teste jogo: 1.67
+ - Nota de vitor: 0+(1.67)+(1.67)+(1.67)+(1.67)+(1.66)+(1.66)
+ - Nota de vitor: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

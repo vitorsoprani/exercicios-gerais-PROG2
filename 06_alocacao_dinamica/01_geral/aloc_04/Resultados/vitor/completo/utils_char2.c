@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "utils_char2.h"
 
-#define DEBUG 1
+#define DEBUG 0
 
 char* CriaVetorTamPadrao() {
     char* vetor = (char*)malloc((TAM_PADRAO + 1) * sizeof(char));

@@ -1,0 +1,15 @@
+==78057== Memcheck, a memory error detector
+==78057== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==78057== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==78057== Command: Resultados/vitor/jogada/prog Resultados/vitor/jogada/Casos/5
+==78057== Parent PID: 78056
+==78057== 
+==78057== 
+==78057== HEAP SUMMARY:
+==78057==     in use at exit: 0 bytes in 0 blocks
+==78057==   total heap usage: 79 allocs, 79 frees, 9,041 bytes allocated
+==78057== 
+==78057== All heap blocks were freed -- no leaks are possible
+==78057== 
+==78057== For lists of detected and suppressed errors, rerun with: -s
+==78057== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
