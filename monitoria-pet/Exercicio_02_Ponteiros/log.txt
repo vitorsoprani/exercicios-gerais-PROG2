@@ -1,0 +1,189 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: VitorSoprani
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA VitorSoprani:
+ - Diretório Resultados/VitorSoprani criado com sucesso!
+ - Diretório Resultados/VitorSoprani/prisioneiro criado com sucesso!
+ - Diretório Resultados/VitorSoprani/cela criado com sucesso!
+ - Diretório Resultados/VitorSoprani/prisao criado com sucesso!
+ - Diretório Resultados/VitorSoprani/completo criado com sucesso!
+ - Diretório Resultados/VitorSoprani/main criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/VitorSoprani/cela.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSoprani/cela.h' encontrado!
+ - Arquivo esperado 'Respostas/VitorSoprani/main.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSoprani/prisao.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSoprani/prisao.h' encontrado!
+ - Arquivo esperado 'Respostas/VitorSoprani/prisioneiro.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSoprani/prisioneiro.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta prisioneiro:
+ - Copiando os Casos de teste para a pasta Resultados/VitorSoprani/prisioneiro
+ - Copiando os Includes/cela.h Includes/prisao.h Includes/prisioneiro.h do professor para a pasta Resultados/VitorSoprani/prisioneiro
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSoprani/prisioneiro
+ - Removendo o prisioneiro.o do professor da pasta Resultados/VitorSoprani/prisioneiro
+ - Copiando o Respostas/VitorSoprani/prisioneiro.c do aluno para a pasta Resultados/VitorSoprani/prisioneiro
+ - Pasta cela:
+ - Copiando os Casos de teste para a pasta Resultados/VitorSoprani/cela
+ - Copiando os Includes/cela.h Includes/prisao.h Includes/prisioneiro.h do professor para a pasta Resultados/VitorSoprani/cela
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSoprani/cela
+ - Removendo o cela.o do professor da pasta Resultados/VitorSoprani/cela
+ - Copiando o Respostas/VitorSoprani/cela.c do aluno para a pasta Resultados/VitorSoprani/cela
+ - Pasta prisao:
+ - Copiando os Casos de teste para a pasta Resultados/VitorSoprani/prisao
+ - Copiando os Includes/cela.h Includes/prisao.h Includes/prisioneiro.h do professor para a pasta Resultados/VitorSoprani/prisao
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSoprani/prisao
+ - Removendo o prisao.o do professor da pasta Resultados/VitorSoprani/prisao
+ - Copiando o Respostas/VitorSoprani/prisao.c do aluno para a pasta Resultados/VitorSoprani/prisao
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/VitorSoprani/completo
+ - Copiando os Respostas/VitorSoprani/cela.c do aluno para a pasta Resultados/VitorSoprani/completo
+ - Copiando os Respostas/VitorSoprani/cela.h do aluno para a pasta Resultados/VitorSoprani/completo
+ - Copiando os Respostas/VitorSoprani/main.c do aluno para a pasta Resultados/VitorSoprani/completo
+ - Copiando os Respostas/VitorSoprani/prisao.c do aluno para a pasta Resultados/VitorSoprani/completo
+ - Copiando os Respostas/VitorSoprani/prisao.h do aluno para a pasta Resultados/VitorSoprani/completo
+ - Copiando os Respostas/VitorSoprani/prisioneiro.c do aluno para a pasta Resultados/VitorSoprani/completo
+ - Copiando os Respostas/VitorSoprani/prisioneiro.h do aluno para a pasta Resultados/VitorSoprani/completo
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/VitorSoprani/main
+ - Copiando os Includes/cela.h Includes/prisao.h Includes/prisioneiro.h do professor para a pasta Resultados/VitorSoprani/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSoprani/main
+ - Removendo o main.o do professor da pasta Resultados/VitorSoprani/main
+ - Copiando o Respostas/VitorSoprani/main.c do aluno para a pasta Resultados/VitorSoprani/main
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta prisioneiro ok!
+ - Arquivo de output gerado: Resultados/VitorSoprani/prisioneiro/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta cela ok!
+ - Arquivo de output gerado: Resultados/VitorSoprani/cela/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta prisao ok!
+ - Arquivo de output gerado: Resultados/VitorSoprani/prisao/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/VitorSoprani/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/VitorSoprani/main/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta prisioneiro:
+ - Gerando o binário prog linkando com o(s) arquivo(s) prisioneiro/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/VitorSoprani/prisioneiro/result_linking.txt
+ - Pasta cela:
+ - Gerando o binário prog linkando com o(s) arquivo(s) cela/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/VitorSoprani/cela/result_linking.txt
+ - Pasta prisao:
+ - Gerando o binário prog linkando com o(s) arquivo(s) prisao/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/VitorSoprani/prisao/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/VitorSoprani/completo/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/VitorSoprani/main/result_linking.txt
+
+EXECUTANDO O PROGRAMA EM CADA CASO:
+ - Pasta prisioneiro / Caso 1:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta prisioneiro / Caso 2:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta prisioneiro / Caso 3:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta prisioneiro (máximo 1.0) - 30.00 de 30.0 - 100.00% de 1.0: 1.00.
+ -----
+ - Pasta cela / Caso 1:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta cela / Caso 2:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta cela / Caso 3:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta cela (máximo 3.0) - 30.00 de 30.0 - 100.00% de 3.0: 3.00.
+ -----
+ - Pasta prisao / Caso 1:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta prisao / Caso 2:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta prisao / Caso 3:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta prisao (máximo 4.0) - 30.00 de 30.0 - 100.00% de 4.0: 4.00.
+ -----
+ - Pasta completo / Caso 1:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta completo / Caso 2:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta completo / Caso 3:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta completo (máximo 1.0) - 30.00 de 30.0 - 100.00% de 1.0: 1.00.
+ -----
+ - Pasta main / Caso 1:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta main / Caso 2:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta main / Caso 3:
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta main (máximo 1.0) - 30.00 de 30.0 - 100.00% de 1.0: 1.00.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: VitorSoprani
+ - Arquivos Esperados Corretos: 7 de 7
+ - Pastas Compiladas Corretamente: 5 de 5 
+ - Pastas Linkadas Corretamente: 5 de 5
+ - Teste prisioneiro
+ - Resultados corretos: 3 de 3
+ - Nota de VitorSoprani para o teste prisioneiro: 1.00
+ - Teste cela
+ - Resultados corretos: 3 de 3
+ - Nota de VitorSoprani para o teste cela: 3.00
+ - Teste prisao
+ - Resultados corretos: 3 de 3
+ - Nota de VitorSoprani para o teste prisao: 4.00
+ - Teste completo
+ - Resultados corretos: 3 de 3
+ - Nota de VitorSoprani para o teste completo: 1.00
+ - Teste main
+ - Resultados corretos: 3 de 3
+ - Nota de VitorSoprani para o teste main: 1.00
+ - Nota de VitorSoprani: 0+(1.00)+(1.00)+(3.00)+(1.00)+(4.00)
+ - Nota de VitorSoprani: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
