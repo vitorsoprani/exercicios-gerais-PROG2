@@ -1,0 +1,203 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: vitor
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA vitor:
+ - Diretório Resultados/vitor criado com sucesso!
+ - Diretório Resultados/vitor/main criado com sucesso!
+ - Diretório Resultados/vitor/completo criado com sucesso!
+ - Diretório Resultados/vitor/data criado com sucesso!
+ - Diretório Resultados/vitor/sistema criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/vitor/data.c' encontrado!
+ - Arquivo esperado 'Respostas/vitor/data.h' encontrado!
+ - Arquivo esperado 'Respostas/vitor/main.c' encontrado!
+ - Arquivo esperado 'Respostas/vitor/sistema.c' encontrado!
+ - Arquivo esperado 'Respostas/vitor/sistema.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/vitor/main
+ - Copiando os Includes/data.h Includes/sistema.h do professor para a pasta Resultados/vitor/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/vitor/main
+ - Removendo o main.o do professor da pasta Resultados/vitor/main
+ - Copiando o Respostas/vitor/main.c do aluno para a pasta Resultados/vitor/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/data.c do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/data.h do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/main.c do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/sistema.c do aluno para a pasta Resultados/vitor/completo
+ - Copiando os Respostas/vitor/sistema.h do aluno para a pasta Resultados/vitor/completo
+ - Pasta data:
+ - Copiando os Casos de teste para a pasta Resultados/vitor/data
+ - Copiando os Includes/data.h Includes/sistema.h do professor para a pasta Resultados/vitor/data
+ - Copiando os Includes/*.o do professor para a pasta Resultados/vitor/data
+ - Removendo o data.o do professor da pasta Resultados/vitor/data
+ - Copiando o Respostas/vitor/data.c do aluno para a pasta Resultados/vitor/data
+ - Pasta sistema:
+ - Copiando os Casos de teste para a pasta Resultados/vitor/sistema
+ - Copiando os Includes/data.h Includes/sistema.h do professor para a pasta Resultados/vitor/sistema
+ - Copiando os Includes/*.o do professor para a pasta Resultados/vitor/sistema
+ - Removendo o sistema.o do professor da pasta Resultados/vitor/sistema
+ - Copiando o Respostas/vitor/sistema.c do aluno para a pasta Resultados/vitor/sistema
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/vitor/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/vitor/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta data ok!
+ - Arquivo de output gerado: Resultados/vitor/data/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta sistema ok!
+ - Arquivo de output gerado: Resultados/vitor/sistema/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/vitor/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/vitor/completo/result_linking.txt
+ - Pasta data:
+ - Gerando o binário prog linkando com o(s) arquivo(s) data/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/vitor/data/result_linking.txt
+ - Pasta sistema:
+ - Gerando o binário prog linkando com o(s) arquivo(s) sistema/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/vitor/sistema/result_linking.txt
+ - Arquivos Linkados: Erro! 1 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/vitor/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 3, frees: 2, errors: 1 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/vitor/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 3, frees: 2, errors: 1 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/vitor/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 3, frees: 2, errors: 1 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/vitor/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 3, frees: 2, errors: 1 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 0 de 40 - 0% de 2.50: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/vitor/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 3, frees: 2, errors: 1 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/vitor/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 3, frees: 2, errors: 1 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/vitor/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 3, frees: 2, errors: 1 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/vitor/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 3, frees: 2, errors: 1 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 0 de 40 - 0% de 2.50: 0.
+ -----
+ - Pasta data / Caso 1:
+ - Arquivo de output gerado: Resultados/vitor/data/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 89, frees: 17, errors: 6 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 2:
+ - Arquivo de output gerado: Resultados/vitor/data/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 17, frees: 7, errors: 2 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta data / Caso 3:
+ - Arquivo de output gerado: Resultados/vitor/data/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 5, frees: 5, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta data / Caso 4:
+ - Arquivo de output gerado: Resultados/vitor/data/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 337, frees: 117, errors: 11 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta data (máximo 2.50) - 10.00 de 40 - 25.00% de 2.50: .62.
+ -----
+ - Pasta sistema / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta sistema / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta sistema / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta sistema / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta sistema (máximo 2.50) - 0 de 40 - 0% de 2.50: 0.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: vitor
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 3 de 4
+ - Teste main
+ - Resultados corretos: 0 de 4
+ - Valgrinds corretos: 0 de 4
+ - Nota de vitor para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 4
+ - Valgrinds corretos: 0 de 4
+ - Nota de vitor para o teste completo: 0
+ - Teste data
+ - Resultados corretos: 1 de 4
+ - Valgrinds corretos: 1 de 4
+ - Nota de vitor para o teste data: .62
+ - Teste sistema
+ - Resultados corretos: 0 de 4
+ - Valgrinds corretos: 0 de 4
+ - Nota de vitor para o teste sistema: 0
+ - Nota de vitor: 0+(0)+(0)+(0)+(.62)
+ - Nota de vitor: .62
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

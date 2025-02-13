@@ -1,0 +1,194 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: VitorSopraniPassamani
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA VitorSopraniPassamani:
+ - Diretório Resultados/VitorSopraniPassamani criado com sucesso!
+ - Diretório Resultados/VitorSopraniPassamani/conta criado com sucesso!
+ - Diretório Resultados/VitorSopraniPassamani/usuario criado com sucesso!
+ - Diretório Resultados/VitorSopraniPassamani/completo criado com sucesso!
+ - Diretório Resultados/VitorSopraniPassamani/main criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/conta.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/conta.h' encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/main.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/usuario.c' encontrado!
+ - Arquivo esperado 'Respostas/VitorSopraniPassamani/usuario.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta conta:
+ - Copiando os Casos de teste para a pasta Resultados/VitorSopraniPassamani/conta
+ - Copiando os Includes/conta.h Includes/usuario.h do professor para a pasta Resultados/VitorSopraniPassamani/conta
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSopraniPassamani/conta
+ - Removendo o conta.o do professor da pasta Resultados/VitorSopraniPassamani/conta
+ - Copiando o Respostas/VitorSopraniPassamani/conta.c do aluno para a pasta Resultados/VitorSopraniPassamani/conta
+ - Pasta usuario:
+ - Copiando os Casos de teste para a pasta Resultados/VitorSopraniPassamani/usuario
+ - Copiando os Includes/conta.h Includes/usuario.h do professor para a pasta Resultados/VitorSopraniPassamani/usuario
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSopraniPassamani/usuario
+ - Removendo o usuario.o do professor da pasta Resultados/VitorSopraniPassamani/usuario
+ - Copiando o Respostas/VitorSopraniPassamani/usuario.c do aluno para a pasta Resultados/VitorSopraniPassamani/usuario
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/conta.c do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/conta.h do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/main.c do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/usuario.c do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Copiando os Respostas/VitorSopraniPassamani/usuario.h do aluno para a pasta Resultados/VitorSopraniPassamani/completo
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/VitorSopraniPassamani/main
+ - Copiando os Includes/conta.h Includes/usuario.h do professor para a pasta Resultados/VitorSopraniPassamani/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/VitorSopraniPassamani/main
+ - Removendo o main.o do professor da pasta Resultados/VitorSopraniPassamani/main
+ - Copiando o Respostas/VitorSopraniPassamani/main.c do aluno para a pasta Resultados/VitorSopraniPassamani/main
+ - Copiando Arquivos Extras do Aluno:
+ - Copiando Respostas/VitorSopraniPassamani/utils.c para Resultados/VitorSopraniPassamani/conta
+ - Copiando Respostas/VitorSopraniPassamani/utils.c para Resultados/VitorSopraniPassamani/usuario
+ - Copiando Respostas/VitorSopraniPassamani/utils.c para Resultados/VitorSopraniPassamani/completo
+ - Copiando Respostas/VitorSopraniPassamani/utils.c para Resultados/VitorSopraniPassamani/main
+ - Copiando Respostas/VitorSopraniPassamani/utils.h para Resultados/VitorSopraniPassamani/conta
+ - Copiando Respostas/VitorSopraniPassamani/utils.h para Resultados/VitorSopraniPassamani/usuario
+ - Copiando Respostas/VitorSopraniPassamani/utils.h para Resultados/VitorSopraniPassamani/completo
+ - Copiando Respostas/VitorSopraniPassamani/utils.h para Resultados/VitorSopraniPassamani/main
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta conta ok!
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/conta/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta usuario ok!
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/usuario/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta conta:
+ - Gerando o binário prog linkando com o(s) arquivo(s) conta/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/conta/result_linking.txt
+ - Pasta usuario:
+ - Gerando o binário prog linkando com o(s) arquivo(s) usuario/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/usuario/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/result_linking.txt
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta conta / Caso 1:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/conta/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 21, frees: 21, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta conta / Caso 2:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/conta/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 32, frees: 32, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta conta / Caso 3:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/conta/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta conta (máximo 4.0) - 30.00 de 30.0 - 100.00% de 4.0: 4.00.
+ -----
+ - Pasta usuario / Caso 1:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/usuario/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 21, frees: 21, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta usuario / Caso 2:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/usuario/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 32, frees: 32, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta usuario / Caso 3:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/usuario/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta usuario (máximo 4.0) - 30.00 de 30.0 - 100.00% de 4.0: 4.00.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 21, frees: 21, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 32, frees: 32, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta completo (máximo 1.0) - 30.00 de 30.0 - 100.00% de 1.0: 1.00.
+ -----
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 21, frees: 21, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 32, frees: 32, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/VitorSopraniPassamani/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10.0
+ - Nota para o Caso (soma dos pesos): 10.00 (soma total) - 0% (desconto do valgrind) = 10.00 de 10.0 pontos.
+ - Nota para a pasta main (máximo 1.0) - 30.00 de 30.0 - 100.00% de 1.0: 1.00.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: VitorSopraniPassamani
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 4 de 4
+ - Teste conta
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de VitorSopraniPassamani para o teste conta: 4.00
+ - Teste usuario
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de VitorSopraniPassamani para o teste usuario: 4.00
+ - Teste completo
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de VitorSopraniPassamani para o teste completo: 1.00
+ - Teste main
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de VitorSopraniPassamani para o teste main: 1.00
+ - Nota de VitorSopraniPassamani: 0+(1.00)+(1.00)+(4.00)+(4.00)
+ - Nota de VitorSopraniPassamani: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

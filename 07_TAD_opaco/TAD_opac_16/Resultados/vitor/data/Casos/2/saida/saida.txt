@@ -1,0 +1,2 @@
+O tiquete processado tem valor: 21125.00 reais
+O sistema faturou: 21125.00 reais

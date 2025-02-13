@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "conta.h": "c",
+        "usuario.h": "c"
+    }
+}

@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/vitor/sistema/main.o: na função "main":
+/home/bruno/github/script-de-correcao/TAD_opac_16/Gabarito-src/main.c:7:(.text+0xe): undefined reference to `CriaSistema'
+/usr/bin/ld: /home/bruno/github/script-de-correcao/TAD_opac_16/Gabarito-src/main.c:8:(.text+0x1e): undefined reference to `LeSistema'
+/usr/bin/ld: /home/bruno/github/script-de-correcao/TAD_opac_16/Gabarito-src/main.c:9:(.text+0x2a): undefined reference to `ImprimeFaturamentoSistema'
+/usr/bin/ld: /home/bruno/github/script-de-correcao/TAD_opac_16/Gabarito-src/main.c:10:(.text+0x36): undefined reference to `DestroiSistema'
+collect2: error: ld returned 1 exit status

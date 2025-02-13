@@ -1,0 +1,128 @@
+==28636== Memcheck, a memory error detector
+==28636== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==28636== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==28636== Command: Resultados/vitor/data/prog Resultados/vitor/data/Casos/4
+==28636== Parent PID: 28635
+==28636== 
+==28636== 
+==28636== HEAP SUMMARY:
+==28636==     in use at exit: 5,280 bytes in 220 blocks
+==28636==   total heap usage: 337 allocs, 117 frees, 16,220 bytes allocated
+==28636== 
+==28636== 24 bytes in 1 blocks are definitely lost in loss record 1 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109894: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098EA: CalculaHorasEntreDatas (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109F0D: CalculaPrecoTiquete (sistema.c:85)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== 168 bytes in 7 blocks are definitely lost in loss record 2 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098AA: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098EA: CalculaHorasEntreDatas (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109EAF: CalculaPrecoTiquete (sistema.c:80)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== 168 bytes in 7 blocks are definitely lost in loss record 3 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098AA: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098EA: CalculaHorasEntreDatas (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109EE7: CalculaPrecoTiquete (sistema.c:82)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== 192 bytes in 8 blocks are definitely lost in loss record 4 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109894: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098EA: CalculaHorasEntreDatas (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109EE7: CalculaPrecoTiquete (sistema.c:82)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== 216 bytes in 9 blocks are definitely lost in loss record 5 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109894: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098EA: CalculaHorasEntreDatas (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109EAF: CalculaPrecoTiquete (sistema.c:80)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== 360 bytes in 15 blocks are definitely lost in loss record 6 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109894: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098EA: CalculaHorasEntreDatas (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109F75: CalculaPrecoTiquete (sistema.c:96)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== 360 bytes in 15 blocks are definitely lost in loss record 7 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098AA: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098EA: CalculaHorasEntreDatas (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109F75: CalculaPrecoTiquete (sistema.c:96)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== 672 bytes in 28 blocks are definitely lost in loss record 8 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109894: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098EA: CalculaHorasEntreDatas (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109F98: CalculaPrecoTiquete (sistema.c:99)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== 672 bytes in 28 blocks are definitely lost in loss record 9 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098AA: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098EA: CalculaHorasEntreDatas (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109F98: CalculaPrecoTiquete (sistema.c:99)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== 1,200 bytes in 50 blocks are definitely lost in loss record 10 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x1098AA: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109E94: CalculaPrecoTiquete (sistema.c:79)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== 1,248 bytes in 52 blocks are definitely lost in loss record 11 of 11
+==28636==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==28636==    by 0x1091CE: CriaData (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x10974C: CalculaDiasAteMes (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109894: CalculaDiferencaDias (in /home/vitor/Documentos/UFES/2024-2/Programação-2/exercicios-gerais-PROG2/07_TAD_opaco/TAD_opac_16/Resultados/vitor/data/prog)
+==28636==    by 0x109E94: CalculaPrecoTiquete (sistema.c:79)
+==28636==    by 0x109D61: LeSistema (sistema.c:55)
+==28636==    by 0x109B5C: main (main.c:8)
+==28636== 
+==28636== LEAK SUMMARY:
+==28636==    definitely lost: 5,280 bytes in 220 blocks
+==28636==    indirectly lost: 0 bytes in 0 blocks
+==28636==      possibly lost: 0 bytes in 0 blocks
+==28636==    still reachable: 0 bytes in 0 blocks
+==28636==         suppressed: 0 bytes in 0 blocks
+==28636== 
+==28636== For lists of detected and suppressed errors, rerun with: -s
+==28636== ERROR SUMMARY: 11 errors from 11 contexts (suppressed: 0 from 0)

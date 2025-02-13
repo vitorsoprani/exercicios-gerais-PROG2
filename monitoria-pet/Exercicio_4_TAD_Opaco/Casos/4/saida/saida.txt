@@ -1,0 +1,118 @@
+Insira o num de times, rodadas e premio total:
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Remo         | 03 | 01 | 00 | 00 | +03
+Palmeiras    | 03 | 01 | 00 | 00 | +02
+Santos       | 03 | 01 | 00 | 00 | +01
+Desportiva   | 03 | 01 | 00 | 00 | +01
+Vasco        | 00 | 00 | 01 | 00 | -01
+Rio-Branco   | 00 | 00 | 01 | 00 | -01
+Paysandu     | 00 | 00 | 01 | 00 | -02
+Flamengo     | 00 | 00 | 01 | 00 | -03
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Palmeiras    | 06 | 02 | 00 | 00 | +03
+Desportiva   | 06 | 02 | 00 | 00 | +02
+Remo         | 03 | 01 | 01 | 00 | +02
+Santos       | 03 | 01 | 01 | 00 | -01
+Flamengo     | 03 | 01 | 01 | 00 | -01
+Rio-Branco   | 01 | 00 | 01 | 01 | -01
+Paysandu     | 01 | 00 | 01 | 01 | -02
+Vasco        | 00 | 00 | 02 | 00 | -02
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Desportiva   | 09 | 03 | 00 | 00 | +07
+Flamengo     | 06 | 02 | 01 | 00 | +04
+Santos       | 06 | 02 | 01 | 00 | +01
+Palmeiras    | 06 | 02 | 01 | 00 | -02
+Paysandu     | 04 | 01 | 01 | 01 | +01
+Remo         | 03 | 01 | 02 | 00 | +00
+Rio-Branco   | 01 | 00 | 02 | 01 | -04
+Vasco        | 00 | 00 | 03 | 00 | -07
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Desportiva   | 12 | 04 | 00 | 00 | +08
+Flamengo     | 09 | 03 | 01 | 00 | +07
+Santos       | 09 | 03 | 01 | 00 | +02
+Palmeiras    | 06 | 02 | 02 | 00 | -05
+Paysandu     | 04 | 01 | 02 | 01 | +00
+Remo         | 03 | 01 | 03 | 00 | -01
+Vasco        | 03 | 01 | 03 | 00 | -04
+Rio-Branco   | 01 | 00 | 03 | 01 | -07
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Desportiva   | 13 | 04 | 00 | 01 | +08
+Flamengo     | 12 | 04 | 01 | 00 | +09
+Santos       | 10 | 03 | 01 | 01 | +02
+Palmeiras    | 07 | 02 | 02 | 01 | -05
+Vasco        | 06 | 02 | 03 | 00 | -01
+Paysandu     | 05 | 01 | 02 | 02 | +00
+Remo         | 03 | 01 | 04 | 00 | -04
+Rio-Branco   | 01 | 00 | 04 | 01 | -09
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 15 | 05 | 01 | 00 | +11
+Desportiva   | 13 | 04 | 01 | 01 | +06
+Santos       | 13 | 04 | 01 | 01 | +04
+Palmeiras    | 10 | 03 | 02 | 01 | -04
+Vasco        | 09 | 03 | 03 | 00 | +01
+Paysandu     | 05 | 01 | 03 | 02 | -02
+Remo         | 03 | 01 | 05 | 00 | -05
+Rio-Branco   | 01 | 00 | 05 | 01 | -11
+
+Menu:
+C - Continuar
+R - Retirar 2 times e seguir
+F - Finalizar
+
+Esta foi a tabela final:
+Classificação:
+Nome | Pontos | Vitorias | Derrotas | Empates | Saldo
+Flamengo     | 15 | 05 | 01 | 00 | +11
+Desportiva   | 13 | 04 | 01 | 01 | +06
+Santos       | 13 | 04 | 01 | 01 | +04
+Palmeiras    | 10 | 03 | 02 | 01 | -04
+Vasco        | 09 | 03 | 03 | 00 | +01
+Paysandu     | 05 | 01 | 03 | 02 | -02
+Remo         | 03 | 01 | 05 | 00 | -05
+Rio-Branco   | 01 | 00 | 05 | 01 | -11
+
+1º lugar - Flamengo: R$250000.00
+2º lugar - Desportiva: R$150000.00
+3º lugar - Santos: R$100000.00
+Fim do campeonato
