@@ -16,7 +16,7 @@ tGerenciador* CriaGerenciador();
 /**
  * @brief Adiciona um pacote ao gerenciador de pacotes.
  *
- * @param geren O gerenciador de pacotes que armazenará o pacote
+ * @param geren O gerenciador de pacotes que armazenará o pacote 
  * @param pac O pacote que queremos adicionar no gerenciador.
  *
  */
