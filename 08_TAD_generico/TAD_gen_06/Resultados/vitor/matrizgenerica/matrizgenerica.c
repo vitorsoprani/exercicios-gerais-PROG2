@@ -8,7 +8,7 @@
 struct matrizgenerica {
     int nLinhas;
     int nColunas;
-    void*** conteudo;
+    void** conteudo;
 
     int tamElementos;
 };
@@ -18,11 +18,11 @@ tMatrizGenerica* CriaMatrizGenerica(int linhas, int colunas, int numByteElem) {
     tMatrizGenerica* mat = (tMatrizGenerica*)malloc(sizeof(tMatrizGenerica));
     assert(mat != NULL);
 
-    mat->conteudo = (void***)malloc(sizeof(void**) * linhas);
+    mat->conteudo = (void**)malloc(sizeof(void*) * linhas);
     assert(mat->conteudo != NULL);
 
     for (int i = 0; i < linhas; i++) {
-        mat->conteudo[i] = (void**)malloc(sizeof(void*) * colunas);
+        mat->conteudo[i] = (void*)malloc(colunas * numByteElem);
         assert(mat->conteudo[i] != NULL);
     }
 
@@ -36,11 +36,8 @@ tMatrizGenerica* CriaMatrizGenerica(int linhas, int colunas, int numByteElem) {
 void DestroiMatrizGenerica(tMatrizGenerica* mat) {
     if (mat != NULL) {
         for (int i = 0; i < mat->nLinhas; i++) {
-            for (int j = 0; j < mat->nColunas; j++) {
-                if (mat->conteudo[i][j] != NULL)
-                    free(mat->conteudo[i][j]);
-            }
-            // free(mat->conteudo[i]);
+            if (mat->conteudo[i] != NULL)
+                free(mat->conteudo[i]);
         }
 
         free(mat->conteudo);
@@ -64,21 +61,21 @@ int ObtemNumeroColunasMatrizGenerica(tMatrizGenerica* mat) {
 void* ObtemElementoMatrizGenerica(tMatrizGenerica* mat, int linha, int coluna) {
     assert(mat != NULL);
 
-    return mat->conteudo[linha][coluna];
+    return mat->conteudo[linha] + (coluna * mat->tamElementos);
 }
 
 void AtribuiElementoMatrizGenerica(tMatrizGenerica* mat, int linha, int coluna, void* elem) {
     assert(mat != NULL);
     assert(elem != NULL);
 
-    mat->conteudo[linha][coluna] = elem;
+    memcpy(mat->conteudo[linha] + coluna * mat->tamElementos, elem, mat->tamElementos);
 }
 
 void ImprimirMatrizGenerica(tMatrizGenerica* mat, void(imprime_elemento(void*))) {
     assert(mat != NULL);
     for (int i = 0; i < mat->nLinhas; i++) {
         for (int j = 0; j < mat->nColunas; j++) {
-            imprime_elemento(mat->conteudo[i][j]);
+            imprime_elemento(mat->conteudo[i] + (j * mat->tamElementos));
             printf(" ");
         }
         printf("\n");
@@ -94,6 +91,7 @@ tMatrizGenerica* MatrizTransposta(tMatrizGenerica* mat) {
             void* elemento = malloc(mat->tamElementos);
             memcpy(elemento, ObtemElementoMatrizGenerica(mat, j, i), mat->tamElementos);
             AtribuiElementoMatrizGenerica(trans, i, j, elemento);
+            free(elemento);
         }
     }
 
@@ -117,7 +115,9 @@ tMatrizGenerica* MultiplicaMatrizes(tMatrizGenerica* mat1, tMatrizGenerica* mat2
     // Inicializa a matriz result com 0.
     for (int i = 0; i < result->nLinhas; i++) {
         for (int j = 0; j < result->nColunas; j++) {
-            AtribuiElementoMatrizGenerica(result, i, j, calloc(1, numByteTarget));
+            void* elem = calloc(1, numByteTarget);
+            AtribuiElementoMatrizGenerica(result, i, j, elem);
+            free(elem);
         }
     }
 
@@ -127,7 +127,7 @@ tMatrizGenerica* MultiplicaMatrizes(tMatrizGenerica* mat1, tMatrizGenerica* mat2
                 void* multResult = multi_elem(ObtemElementoMatrizGenerica(mat1, i, k), ObtemElementoMatrizGenerica(mat2, k, j));
                 void* sumResult = soma_elem(multResult, ObtemElementoMatrizGenerica(result, i, j));
 
-                memcpy(result->conteudo[i][j], sumResult, numByteTarget);
+                memcpy(result->conteudo[i] + (j * result->tamElementos), sumResult, numByteTarget);
 
                 free(multResult);
                 free(sumResult);
@@ -143,7 +143,9 @@ tMatrizGenerica* ConverteTipoMatriz(tMatrizGenerica* mat2, int novoNumByteElem, 
 
     for (int i = 0; i < result->nLinhas; i++) {
         for (int j = 0; j < result->nColunas; j++) {
-            AtribuiElementoMatrizGenerica(result, i, j, converte_elem(ObtemElementoMatrizGenerica(mat2, i, j)));
+            void* elem = converte_elem(ObtemElementoMatrizGenerica(mat2, i, j));
+            AtribuiElementoMatrizGenerica(result, i, j, elem);
+            free(elem);
         }
     }
 
