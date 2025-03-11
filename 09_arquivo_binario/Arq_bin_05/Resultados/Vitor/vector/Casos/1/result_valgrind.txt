@@ -1,0 +1,15 @@
+==92931== Memcheck, a memory error detector
+==92931== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==92931== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==92931== Command: Resultados/Vitor/vector/prog Resultados/Vitor/vector/Casos/1
+==92931== Parent PID: 92930
+==92931== 
+==92931== 
+==92931== HEAP SUMMARY:
+==92931==     in use at exit: 0 bytes in 0 blocks
+==92931==   total heap usage: 17 allocs, 17 frees, 13,224 bytes allocated
+==92931== 
+==92931== All heap blocks were freed -- no leaks are possible
+==92931== 
+==92931== For lists of detected and suppressed errors, rerun with: -s
+==92931== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
