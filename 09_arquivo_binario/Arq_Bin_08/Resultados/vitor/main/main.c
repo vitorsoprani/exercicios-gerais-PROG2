@@ -4,7 +4,18 @@
 
 void PrintaMenu();
 
+void Cadastrar();
+
+void Buscar();
+
+void (*table_lista[5])(tListaContato* lista);
+
 int main() {
+    table_lista[1] = Cadastrar;
+    table_lista[2] = RemoverContatoListaContato;
+    table_lista[3] = Buscar;
+    table_lista[4] = ImprimirListaContato;
+    
     tListaContato* lista = CriarListaContato();
 
     char nomeArquivo[100];
@@ -16,28 +27,10 @@ int main() {
         PrintaMenu();
         scanf("%d%*c", &opt);
 
-        if (opt == 0) {
+        if (opt == 0)
             break;
-        } else if (opt == 1) {
-            tContato* c = LeContato();
-            AdicionarContatoListaContato(lista, c);
-        } else if (opt == 2) {
-            RemoverContatoListaContato(lista);
-        } else if (opt == 3) {
-            printf("1 - Buscar pelo nome\n");
-            printf("2 - Buscar pelo numero de telefone\n");
-            printf("Opcao escolhida: \n");
 
-            scanf("%d%*c", &opt);
-
-            if (opt == 1) {
-                BuscarPorNomeListaContato(lista);
-            } else if (opt == 2) {
-                BuscarPorNumeroTelefoneListaContato(lista);
-            }
-        } else if (opt == 4) {
-            ImprimirListaContato(lista);
-        }
+        table_lista[opt](lista);
     }
 
     scanf("%[^\n]%*c", nomeArquivo);
@@ -58,3 +51,24 @@ void PrintaMenu() {
     printf("Opcao escolhida: \n");
 }
 
+
+void Cadastrar(tListaContato* lista) {
+    tContato* c = LeContato();
+    AdicionarContatoListaContato(lista, c);
+}
+
+void Buscar(tListaContato* lista) {
+    int opt = 0;
+    
+    printf("1 - Buscar pelo nome\n");
+    printf("2 - Buscar pelo numero de telefone\n");
+    printf("Opcao escolhida: \n");
+
+    scanf("%d%*c", &opt);
+
+    if (opt == 1) {
+        BuscarPorNomeListaContato(lista);
+    } else if (opt == 2) {
+        BuscarPorNumeroTelefoneListaContato(lista);
+    }
+}
