@@ -1,0 +1,15 @@
+==106374== Memcheck, a memory error detector
+==106374== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==106374== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==106374== Command: Resultados/vitor/vector/prog Resultados/vitor/vector/Casos/3
+==106374== Parent PID: 106373
+==106374== 
+==106374== 
+==106374== HEAP SUMMARY:
+==106374==     in use at exit: 0 bytes in 0 blocks
+==106374==   total heap usage: 27 allocs, 27 frees, 18,640 bytes allocated
+==106374== 
+==106374== All heap blocks were freed -- no leaks are possible
+==106374== 
+==106374== For lists of detected and suppressed errors, rerun with: -s
+==106374== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
